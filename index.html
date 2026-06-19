@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cristian Luque — Ingeniero de Telecomunicaciones</title>
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAVEGACIÓN ─── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">C<span>L</span></a>
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#curriculum">Currículum</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="mailto:cristianluquedom04@gmail.com" class="nav-cta">Contactar</a>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-bg-gradient"></div>
+    <div class="hero-inner">
+
+      <div class="hero-text">
+        <p class="hero-eyebrow">Ingeniería · Telecomunicaciones · Madrid/Cádiz</p>
+        <h1 class="hero-title">Cristian<br/>Luque</h1>
+        <h2 class="hero-subtitle"><em>Ingeniero técnico</em> de Telecomunicaciones</h2>
+        <p class="hero-desc">
+          Graduado por la UCM con un expediente de 8,4/10 y 11 matrículas de honor.
+          Especializado en electrónica: diseño de circuitos RF, PCBs y sistemas embebidos.
+          Apasionado por el mundo de las redes y ciberseguridad.
+        </p>
+        <div class="hero-actions">
+          <a href="#proyectos" class="btn-primary">Ver proyectos</a>
+          <a href="#curriculum" class="btn-ghost">Currículum</a>
+        </div>
+      </div>
+
+      <!-- Tarjeta terminal de perfil técnico -->
+      <div class="hero-card fade-in">
+        <div class="hero-card-header">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+          <span class="hero-card-title">cristian luque domínguez — perfil técnico</span>
+        </div>
+        <div class="hero-card-body">
+          <div class="skill-row">
+            <span class="skill-name">Diseño RF & PCB</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" style="width:75%"></div></div>
+            <span class="skill-tag">Altium</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Programación C / Python</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" style="width:70%"></div></div>
+            <span class="skill-tag">Avanzado</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">VHDL / Vivado</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" style="width:50%"></div></div>
+            <span class="skill-tag">FPGA</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">ANSYS HFSS / AWR</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" style="width:40%"></div></div>
+            <span class="skill-tag">Sim RF</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Diseño de redes</span>
+            <div class="skill-bar-wrap"><div class="skill-bar" style="width:65%"></div></div>
+            <span class="skill-tag">Redes</span>
+          </div>
+          <div class="card-stat-row">
+            <div class="card-stat">
+              <div class="card-stat-value">8.4</div>
+              <div class="card-stat-label">Nota media</div>
+            </div>
+            <div class="card-stat">
+              <div class="card-stat-value">11</div>
+              <div class="card-stat-label">Matrículas de honor</div>
+            </div>
+            <div class="card-stat">
+              <div class="card-stat-value">10 <span style="font-size: 0.6em;">(MH)</span></div>
+              <div class="card-stat-label">TFG - calificación</div>
+            </div>
+            <div class="card-stat">
+              <div class="card-stat-value">B2</div>
+              <div class="card-stat-label">Inglés FCE</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── SOBRE MÍ ─── -->
+  <section id="sobre-mi">
+    <div class="section-inner">
+      <p class="section-eyebrow">Quién soy</p>
+      <h2 class="section-title">Donde la <em>tecnología</em> se convierte<br/>en producto</h2>
+      <div class="divider"></div>
+      <div class="sobre-grid">
+
+        <div class="sobre-text fade-in">
+          <p>
+            Soy <strong>Cristian Luque Domínguez</strong>, graduado en Ingeniería Electrónica de Comunicaciones
+            por la Universidad Complutense de Madrid. Crecí en Chipiona (Cádiz) y me formé en Madrid durante
+            cuatro años de grado. Actualmente, estudio el Doble Máster de Ingeniería de Telecomunicaciones y
+            Ciberseguridad en la Universidad Carlos III de Madrid.
+          </p>
+          <p>
+            Mi TFG, centrado en el "<em>diseño de módulos electrónicos para un transmisor PMR446</em>" 
+            —desde el modulador FM hasta el sintetizador de frecuencias y la PCB final—, fue el proyecto 
+            que demostró mi capacidad de llevar un sistema de comunicaciones desde la hoja de especificaciones 
+            hasta el funcionamiento final. Tanto es así, que fue calificado con un 10/10, y obtuve la Matrícula de Honor.
+          </p>
+          <p>
+            Busco mi primer rol profesional en el sector tecnológico, donde pueda contribuir desde el primer día
+            con conocimientos adquiridos. Me gusta la electrónica y la radiofrecuencia (RF), si, pero también me 
+            genera mucho interés el diseño de software y el mundo de la programación, así como la administración
+            de redes.
+          </p>
+        </div>
+
+        <div class="sobre-highlights fade-in">
+          <div class="highlight-row">
+            <div class="highlight-icon">📡</div>
+            <div class="highlight-content">
+              <h4>Sistemas RF y telecomunicaciones</h4>
+              <p>Diseño de circuitos de radiofrecuencia, sintetizadores y moduladores FM en bandas PMR. Además, diseño de PCBs en Altium.</p>
+            </div>
+          </div>
+          <div class="highlight-row">
+            <div class="highlight-icon">🌐</div>
+            <div class="highlight-content">
+              <h4>Diseño y Administración de redes</h4>
+              <p>Diseño, planificación y teoría sobre redes de comunicaciones.</p>
+            </div>
+          </div>
+          <div class="highlight-row">
+            <div class="highlight-icon">💻</div>
+            <div class="highlight-content">
+              <h4>Programación embebida</h4>
+              <p>Desarrollo en C sobre Raspberry Pi y plataformas ARM; control de periféricos y señales de RF en tiempo real.</p>
+            </div>
+          </div>
+          <div class="highlight-row">
+            <div class="highlight-icon">🎓</div>
+            <div class="highlight-content">
+              <h4>Beca de Excelencia — Comunidad de Madrid</h4>
+              <p>Reconocimiento académico por rendimiento sobresaliente en las convocatorias de 2023–2024 y 2024–2025.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROYECTOS ─── -->
+  <section id="proyectos">
+    <div class="section-inner">
+      <p class="section-eyebrow">Proyectos</p>
+      <h2 class="section-title">Lo que he <em>construido</em></h2>
+      <p class="section-subtitle">
+        Proyectos técnicos que van del diseño de circuitos al software embebido,
+        con resultados medibles y verificados en laboratorio.
+      </p>
+
+      <div class="projects-grid">
+
+        <!-- TFG -->
+        <div class="project-card fade-in">
+          <div class="project-card-header">
+            <div class="project-icon">📻</div>
+            <span class="project-badge featured">TFG · Matrícula de Honor</span>
+          </div>
+          <h3 class="project-title">Transmisor PMR446 — Módulos electrónicos completos</h3>
+          <p class="project-desc">
+            Diseño íntegro de un transmisor para la banda PMR446: modulador FM basado en Raspberry Pi (C),
+            sintetizador de frecuencias PLL, circuitería de RF analógica y PCB final con verificación en
+            banco de medidas. Proyecto realizado en la UCM.
+          </p>
+          <div class="project-tags">
+            <span class="tag">RF Design</span>
+            <span class="tag">PCB Altium</span>
+            <span class="tag">C / Linux</span>
+            <span class="tag">Raspberry Pi</span>
+            <span class="tag">PLL</span>
+            <span class="tag">Modulación FM</span>
+          </div>
+          <div class="project-footer">
+            <span class="project-result">Calificación: <strong>10 / 10</strong></span>
+            <a href="#contacto" class="project-link">Solicitar detalles →</a>
+          </div>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="project-card fade-in">
+          <div class="project-card-header">
+            <div class="project-icon">🔧</div>
+            <span class="project-badge">Proyecto de laboratorio</span>
+          </div>
+          <h3 class="project-title">Diseño de circuito de control con FPGA</h3>
+          <p class="project-desc">
+            Implementación de un sistema de control digital sobre FPGA Xilinx, descrito en VHDL y sintetizado
+            con Vivado. Verificación funcional en simulación y validación en placa de desarrollo.
+          </p>
+          <div class="project-tags">
+            <span class="tag">VHDL</span>
+            <span class="tag">Vivado</span>
+            <span class="tag">Xilinx FPGA</span>
+            <span class="tag">Digital Design</span>
+          </div>
+          <div class="project-footer">
+            <span class="project-result">UCM · <strong>Diseño de Sistemas Digitales</strong></span>
+            <a href="#contacto" class="project-link">Contactar →</a>
+          </div>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="project-card fade-in">
+          <div class="project-card-header">
+            <div class="project-icon">🌐</div>
+            <span class="project-badge">Proyecto de laboratorio</span>
+          </div>
+          <h3 class="project-title">Simulación de antena de parche en HFSS</h3>
+          <p class="project-desc">
+            Modelado, simulación electromagnética y optimización de una antena microstrip de parche rectangular
+            en ANSYS HFSS para la banda de 2,4 GHz, incluyendo análisis de parámetros S y diagrama de radiación.
+          </p>
+          <div class="project-tags">
+            <span class="tag">ANSYS HFSS</span>
+            <span class="tag">Antenas</span>
+            <span class="tag">Parámetros S</span>
+            <span class="tag">2.4 GHz</span>
+          </div>
+          <div class="project-footer">
+            <span class="project-result">UCM · <strong>Electromagnetismo</strong></span>
+            <a href="#contacto" class="project-link">Contactar →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CURRÍCULUM ─── -->
+  <section id="curriculum">
+    <div class="section-inner">
+      <p class="section-eyebrow">Currículum</p>
+      <h2 class="section-title">Formación y <em>experiencia</em></h2>
+      <p class="section-subtitle">
+        Una trayectoria académica de alto rendimiento combinada con experiencia práctica
+        y orientación profesional desde el primer año.
+      </p>
+      <div class="divider"></div>
+
+      <div class="cv-grid">
+
+        <!-- Formación académica -->
+        <div class="fade-in">
+          <p class="cv-section-title">📚 Formación académica</p>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot">🛡️</div>
+              <div class="timeline-content">
+                <p class="timeline-period">09/2026 – 06/2028</p>
+                <p class="timeline-title">Doble Máster en Ingeniería de Telecomunicaciones y Ciberseguridad</p>
+                <p class="timeline-org">Universidad Carlos III de Madrid</p>
+                <ul class="timeline-desc">
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot">🎓</div>
+              <div class="timeline-content">
+                <p class="timeline-period">09/2022 – 06/2026</p>
+                <p class="timeline-title">Grado en Ingeniería Electrónica de Comunicaciones</p>
+                <p class="timeline-org">Universidad Complutense de Madrid</p>
+                <ul class="timeline-desc">
+                  <li>Nota media: 8,4 · 11 matrículas de honor</li>
+                  <li>Competencias en electrónica, telecomunicaciones, redes, programación (C, C++, Python, Matlab) y gestión de proyectos</li>
+                  <li>TFG calificado con Matrícula de Honor (10/10)</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot">📖</div>
+              <div class="timeline-content">
+                <p class="timeline-period">09/2020 – 06/2022</p>
+                <p class="timeline-title">Bachillerato Tecnológico</p>
+                <p class="timeline-org">I.E.S. Salmedina — Chipiona, Cádiz</p>
+                <ul class="timeline-desc">
+                  <li>Nota media: 8,65 / 10</li>
+                  <li>Nota EBAU: 12,063 / 14</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Experiencia y reconocimientos -->
+        <div class="fade-in">
+          <p class="cv-section-title">💼 Experiencia profesional</p>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot">🖨️</div>
+              <div class="timeline-content">
+                <p class="timeline-period">06/2021 – 06/2024</p>
+                <p class="timeline-title">Ayudante en Copistería</p>
+                <p class="timeline-org">IDEA Copistería — Chipiona, Cádiz</p>
+                <ul class="timeline-desc">
+                  <li>Ofimática avanzada (Excel, Word) y diseño gráfico (Adobe Illustrator, Photoshop)</li>
+                  <li>Atención directa al cliente, toma de decisiones y resolución de incidencias</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+          <p class="cv-section-title mt">🏆 Reconocimientos</p>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot">⭐</div>
+              <div class="timeline-content">
+                <p class="timeline-period">2023–2024 · 2024–2025</p>
+                <p class="timeline-title">Beca de Excelencia Académica</p>
+                <p class="timeline-org">Comunidad de Madrid</p>
+                <p class="timeline-desc">Reconocimiento por rendimiento académico sobresaliente durante dos convocatorias consecutivas.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot">🇬🇧</div>
+              <div class="timeline-content">
+                <p class="timeline-period">Cambridge English</p>
+                <p class="timeline-title">B2 First Certificate in English (FCE)</p>
+                <p class="timeline-org">Cambridge Assessment English</p>
+                <p class="timeline-desc">Certificación oficial de nivel B2 de inglés.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="cv-download">
+        <a href="https://ucomplutense-my.sharepoint.com/:b:/r/personal/crluque_ucm_es/Documents/something/CV_CristianLuqueDominguez.pdf?csf=1&web=1&e=V6kUGl" class="btn-ghost">
+          Descargar CV en PDF (Español) →
+        </a>
+        <a href="https://ucomplutense-my.sharepoint.com/:b:/r/personal/crluque_ucm_es/Documents/something/CV_CristianLuqueDominguez_english.pdf?csf=1&web=1&e=C6jYjr" class="btn-ghost">
+          Descargar CV en PDF (Inglés) →
+        </a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- ─── HABILIDADES ─── -->
+  <section id="habilidades">
+    <div class="section-inner">
+      <p class="section-eyebrow">Competencias</p>
+      <h2 class="section-title">El <em>stack</em> técnico</h2>
+      <p class="section-subtitle">Herramientas, lenguajes y disciplinas que domino y aplico en proyectos reales.</p>
+
+      <div class="skills-grid">
+
+        <div class="skill-card fade-in">
+          <p class="skill-card-title">📡 RF & Hardware</p>
+          <div class="skill-list">
+            <span class="skill-pill gold">Diseño de circuitos RF</span>
+            <span class="skill-pill gold">Diseño de PCB</span>
+            <span class="skill-pill">Altium Designer</span>
+            <span class="skill-pill">ANSYS HFSS</span>
+            <span class="skill-pill">AWR Microwave Office</span>
+            <span class="skill-pill">Electrónica analógica</span>
+            <span class="skill-pill">Medidas RF</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <p class="skill-card-title">💻 Programación</p>
+          <div class="skill-list">
+            <span class="skill-pill gold">C</span>
+            <span class="skill-pill gold">Python</span>
+            <span class="skill-pill">C++</span>
+            <span class="skill-pill">Matlab</span>
+            <span class="skill-pill">VHDL</span>
+            <span class="skill-pill">Bash / Linux</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <p class="skill-card-title">⚙️ Diseño digital</p>
+          <div class="skill-list">
+            <span class="skill-pill gold">VHDL</span>
+            <span class="skill-pill gold">Vivado</span>
+            <span class="skill-pill">FPGA Xilinx</span>
+            <span class="skill-pill">Arquitectura de sistemas</span>
+            <span class="skill-pill">Circuitos de control</span>
+            <span class="skill-pill">Robótica</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <p class="skill-card-title">🌐 Redes & Software</p>
+          <div class="skill-list">
+            <span class="skill-pill">Redes de telecomunicaciones</span>
+            <span class="skill-pill">Administración de redes</span>
+            <span class="skill-pill">ML (MathWorks Onramp)</span>
+            <span class="skill-pill">Adobe Illustrator</span>
+            <span class="skill-pill">Excel avanzado</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certificaciones -->
+      <div class="certs-section">
+        <p class="section-eyebrow">Certificaciones</p>
+        <div class="certs-grid">
+
+          <div class="cert-card fade-in">
+            <div class="cert-icon">🏅</div>
+            <div>
+              <p class="cert-name">Beca de Excelencia · Comunidad de Madrid</p>
+              <p class="cert-detail">Convocatorias 2023–2024 y 2024–2025</p>
+            </div>
+          </div>
+
+          <div class="cert-card fade-in">
+            <div class="cert-icon">🤖</div>
+            <div>
+              <p class="cert-name">Machine Learning Onramp</p>
+              <p class="cert-detail">MathWorks — Matlab & Simulink</p>
+            </div>
+          </div>
+
+          <div class="cert-card fade-in">
+            <div class="cert-icon">🇬🇧</div>
+            <div>
+              <p class="cert-name">B2 First Certificate in English (FCE)</p>
+              <p class="cert-detail">Cambridge Assessment English</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACTO ─── -->
+  <section id="contacto">
+    <div class="section-inner">
+      <div class="contact-inner">
+        <p class="section-eyebrow">Contacto</p>
+        <h2 class="section-title">Construyamos <em>algo</em><br/>juntos</h2>
+        <p class="section-subtitle">
+          Estoy disponible para nuevas oportunidades laborales, colaboraciones técnicas
+          o simplemente para hablar de electrónica y telecomunicaciones.
+        </p>
+
+        <div class="contact-links">
+          <a href="https://linkedin.com/in/cristianluquedom" target="_blank" class="contact-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            LinkedIn
+          </a>
+          <a href="mailto:cristianluquedom04@gmail.com" class="contact-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="m22 7-10 7L2 7"/>
+            </svg>
+            Email
+          </a>
+          <a href="#" class="contact-link" onclick="alert('Añade aquí el enlace a tu GitHub. Ver GUIDE.md.')">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="contact-email-block">
+          <p class="contact-email-label">Correo electrónico</p>
+          <a href="mailto:cristianluquedom04@gmail.com" class="contact-email-addr">
+            cristianluquedom04@gmail.com
+          </a>
+          <a href="mailto:cristianluquedom04@gmail.com" class="btn-primary">Enviar mensaje →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-name"><em>Cristian Luque Domínguez</em></span>
+      <span class="footer-copy">© 2026 · Cádiz · Madrid</span>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+
+</body>
+</html>
